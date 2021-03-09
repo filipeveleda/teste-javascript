@@ -17,7 +17,8 @@
   
 
 
-### Desafio backend
+### Desafio backend 
+Link do desafio [Desafio backend](https://github.com/naveteam/teste-estagio-2020)
 
 #### Instalação
 - Realize um clone deste repositório
@@ -27,13 +28,14 @@
 - Rode `yarn sequelize db:create`
 - Rode `yarn sequelize db:migrate` para realizar as migrations
 - Rode `npx nodemon src/server.js` para subir o server
+- Importe o arquivo `Insomnia_2021-03-09.json'`
   
 
 #### Tecnologias
 - Express
 - Sequelize
 - Docker
-- Mysql
+
 
 #### Funcionalidades
 ##### Navers
@@ -45,6 +47,13 @@
 - [ ]  index
 - [ ]  Show
 - [ ]  Store
+  
+##### Dificuldades
 
+##### Referências
 
+- [Sequelize](https://sequelize.org/master/)
+- [Dockerhub](https://hub.docker.com/_/postgres)
+- [Tutorial Youtube Sequelize](https://www.youtube.com/watch?v=Fbu7z5dXcRs&t=3341s)
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
