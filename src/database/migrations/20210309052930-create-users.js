@@ -16,6 +16,10 @@ module.exports = {
           autoIncrement: true,
           allowNull: false,
         },
+        name:{
+          type: Sequelize.STRING,
+          allowNull: false
+        },
         birthdate:{
           type: Sequelize.DATE,
         },
@@ -26,13 +30,16 @@ module.exports = {
           type: Sequelize.STRING,
           allowNull: false,
         },
+        projects:{
+          type: Sequelize.ARRAY(Sequelize.INTEGER),
+        },
         created_at:{
           type: Sequelize.DATE,
           allowNull: false,
         },
         updated_at:{
           type: Sequelize.DATE,
-        allowNull: false,
+          allowNull: false,
         } 
        
       })

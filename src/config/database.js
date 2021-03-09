@@ -1,10 +1,9 @@
 module.exports = {
-  dialect: 'mysql',
+  dialect: 'postgres',
   host: 'localhost',
-  username: 'root',
-  password: 'root',
+  username: 'postgres',
+  password: 'senha5',
   database: 'nave_api',
-  port: '3306',
   define: {
     timestamps: true,
     underscored: true,

@@ -7,6 +7,7 @@ class User extends Model {
       birthdate: DataTypes.DATE,
       admission_date: DataTypes.DATE,
       job_role: DataTypes.STRING,
+      projects: DataTypes.ARRAY(DataTypes.INTEGER)
     }, {
       sequelize
     })
