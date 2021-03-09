@@ -1,6 +1,8 @@
 const User = require('../models/User');
 
 module.exports = {
+
+
   async index(req, res) {
     const users = await User.findAll({
       attributes: ['name','birthdate','admission_date','job_role']
@@ -14,6 +16,12 @@ module.exports = {
 
     const user = await User.create({ name, birthdate, admission_date, job_role ,projects });
 
-    return res.json(user);
+    return res.json({
+      name: user.name,
+      birthdate: user.birthdate,
+      admission_date: user.admission_date,
+      job_role: user.job_role,
+      projects: user.projects
+    });
   }
 };
