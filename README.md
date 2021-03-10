@@ -49,6 +49,7 @@ Link do desafio [Desafio backend](https://github.com/naveteam/teste-estagio-2020
 - [x]  Store
   
 ##### Dificuldades
+- A maior dificuldade do durante o projeto foi criar o relacionamento entre as tabelas `navers` e `projects` usando sequelize.
 
 ##### Referências
 
