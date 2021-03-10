@@ -12,6 +12,14 @@ module.exports ={
       name: project.name, 
       navers: project.navers
     });
+  },
+  async index(req, res){
+    const projects = await Project.findAll({ 
+      attributes: ['id', 'name']
+    });
+
+    return res.json(projects);
   }
+
 }
 0

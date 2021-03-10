@@ -8,6 +8,7 @@ const routes = express.Router();
 routes.get('/users', UserController.index);
 routes.post('/users', UserController.store);
 
+routes.get('/projects', ProjectController.index);
 routes.post('/projects', ProjectController.store);
 
 

@@ -44,7 +44,7 @@ Link do desafio [Desafio backend](https://github.com/naveteam/teste-estagio-2020
 - [x]  Store
 
 ##### Projects
-- [ ]  index
+- [x]  index
 - [ ]  Show
 - [x]  Store
   
